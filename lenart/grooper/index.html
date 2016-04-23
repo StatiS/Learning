@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<link  rel="stylesheet" type="text/css" href="css/stylesheet.css" >
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+<script type="text/javascript"src="javascript/basic.js"></script>
+</head>
+<body>
+
+
+<div></div>
+<div id="bar">
+
+<div class="inline" atribute="log">Log in</div>
+<div class="inline"> or </div>
+<div class="inline" atribute="reg" > Register </div>
+
+</div>
+
+
+
+
+<div id="circle">
+  <div id="napis">
+  <div><h1> IRL </h1></div>
+  <div id="crta"></div>
+  <div><h1> eRL </h1></div>
+  </div>
+</div>
+
+
+
+<script>
+
+var sirina=$(window).width();
+var polsirina=sirina/2.5;
+document.getElementById("circle").setAttribute("style","height:" + polsirina.toString() + "px");
+var krog = document.getElementById("circle");
+krog.style.borderRadius= "50%";
+krog.style.width= "40%";
+krog.style.backgroundColor= "orange";
+krog.style.marginLeft="35%";
+krog.style.marginTop="3%"
+krog.style.position= "relative";
+
+</script>
+
+</body>
+</html>
