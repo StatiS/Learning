@@ -4,18 +4,18 @@
 <title>Page Title</title>
 <link  rel="stylesheet" type="text/css" href="css/stylesheet.css" >
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-
-<script type="text/javascript"src="javascript/basic.js"></script>
+<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+<script src="javascript/basic.js"></script>
 </head>
-<body>
+<body id="page">
 
 
-<div></div>
+
 <div id="bar">
 
-<div class="inline" atribute="log">Log in</div>
+<div class="inline" id="log">Log in</div>
 <div class="inline"> or </div>
-<div class="inline" atribute="reg" > Register </div>
+<div class="inline" id="reg" > Register </div>
 
 </div>
 
@@ -33,19 +33,9 @@
 
 
 <script>
-
-var sirina=$(window).width();
-var polsirina=sirina/2.5;
-var krog = document.getElementById("circle");
-krog.style.borderRadius= "50%";
-krog.style.width= polsirina+"px";
-krog.style.backgroundColor= "orange";
-krog.style.marginLeft="35%";
-krog.style.marginTop="3%"
-krog.style.height=polsirina+"px";
-krog.style.position= "relative";
-krog.style.border = "thick solid #0000FF";
+narKrog();
 </script>
+
 
 </body>
 </html>

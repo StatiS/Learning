@@ -32,3 +32,14 @@ html, body {
   line-height:0.1em;
   margin:10px 0 20px;
 }
+
+#form{
+  margin-left: 40%;
+  margin-top:  20%;
+  background-color: #4f4fdb;
+  width: 15%;
+  
+  border: 3px solid #73AD21;
+  padding: 10px;
+
+}

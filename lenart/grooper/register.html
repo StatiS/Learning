@@ -1,0 +1,22 @@
+<div></div>
+<div id="bar">
+
+<div class="inline" id="log" > Log in here </div>
+
+</div>
+
+<form id="form" action="#">
+mail: <input type="text" name="FirstName"><br>
+password: <input type="text" name="LastName"><br>
+repat password: <input type="text" name="LastName"><br>
+<input type="submit" value="Submit">
+</form>
+
+
+<script>
+$(document).ready(function(){
+    $("#log").click(function(){
+      $("#page").load("login.html");
+    });
+});
+</script>
