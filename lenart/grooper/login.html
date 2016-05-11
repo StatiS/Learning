@@ -1,0 +1,22 @@
+<div></div>
+<div id="bar">
+
+<div class="inline" id="reg" > Register here </div>
+
+</div>
+
+<form action="#">
+mail: <input type="text" name="FirstName" value="Mickey"><br>
+password: <input type="text" name="LastName" value="Mouse"><br>
+<input type="submit" value="Submit">
+</form>
+
+
+<script>
+$(document).ready(function(){
+    $("#reg").click(function(){
+      $("#page").load("register.html");
+    });
+});
+
+</script>

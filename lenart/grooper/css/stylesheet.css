@@ -1,0 +1,45 @@
+html, body {
+    		height: 100%;
+    		margin: 0;
+    	}
+#bar {
+    background-color:rgb(39, 73, 113) ;
+    text-align: right;
+    height: 30px;
+    color: rgb(242, 246, 241);
+    width: 100%;
+
+
+
+}
+.inline{
+  display: inline-block;
+  margin-right: 3px;
+  margin-top: 3px;
+}
+
+#napis{
+  position: absolute;
+  text-align: center;
+  margin-left: 45%;
+  margin-top: 33%;
+}
+
+#crta{
+  width:100%;
+  text-align:center;
+  border-bottom: 10px solid #000;
+  line-height:0.1em;
+  margin:10px 0 20px;
+}
+
+#form{
+  margin-left: 40%;
+  margin-top:  20%;
+  background-color: #4f4fdb;
+  width: 15%;
+  
+  border: 3px solid #73AD21;
+  padding: 10px;
+
+}
